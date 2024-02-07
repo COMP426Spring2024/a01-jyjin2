@@ -1,0 +1,149 @@
+/* cursor */
+/* Start https://www.cursors-4u.com */ * {
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-9/cur817.cur), 
+    auto !important;
+}
+
+
+@font-face {
+    font-family: 'mogent';
+    src: url("/font/Mogent.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: 'recia-serif';
+    src: url("/font/ReciaSerifDisplay-Bold.ttf") format("truetype");
+}
+
+
+body {
+    background-color: #393646;
+    text-align: center; 
+    font-family: sans-serif;
+    background-size: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+#cover {
+    background-color: #6D5D6E;
+    border-radius: 9px;
+    width: 960px;
+    height: 660px;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+#page {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.607);
+    top: 25px;
+    left: 25px;
+    border-radius: 8px;
+    width: 910px;
+    height: 610px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.title {
+    font-family: 'mogent';
+    font-size: large;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+
+#main-box {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+
+
+.mbox1{
+    height: 100%;
+    width: 100%;
+    background-color: #F1F6F9;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+.copyrights {
+    color: grey;
+    font-size: 10px
+}
+
+
+.textbox {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+
+.artemis-image {
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
+
+#menu-bar {
+    width: 20%; 
+    height: auto;
+    margin-top: 70px;
+}
+
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+.menu-box>div{
+    font-size: 13px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #6D5D6E;
+    margin-top: 15px;
+    padding: 7px;
+}
+.menu-box a:link {
+    color : white
+}
+.menu-box div:hover{
+    background-color: #655e84;
+}
+.menu-box div:active{
+    background-color: #655e84;
+}
+
+
+a {
+    text-decoration: none;
+    color: whitesmoke
+}
+
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
